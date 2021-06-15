@@ -25,12 +25,24 @@
 
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-Name of feature: ******\*\*******\_\_\_\_******\*\*******
+#
 
-Estimate of time needed to complete: **\_**
+Name of feature: LocationIQ/ Thunder Client/API/React
 
-Start time: **\_**
+Estimate of time needed to complete: 5 hours
 
-Finish time: **\_**
+Start time: 2 pm
 
-Actual time needed to complete: **\_**
+Finish time: 2 am
+
+Actual time needed to complete: 12
+
+Name of feature: Server/Express/Node js
+
+Estimate of time needed to complete: 6 Hours
+
+Start time: 2 pm
+
+Finish time: 2 pm
+
+Actual time needed to complete: 12 hours
