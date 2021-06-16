@@ -3,16 +3,14 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 export class Weather extends Component {
   render() {
-    return this.props.weatherData.map((value) => {
-      return (
-        <>
-          <ListGroup>
-            <ListGroup.Item>{value.description}</ListGroup.Item>
-            <ListGroup.Item>{value.date}</ListGroup.Item>
-          </ListGroup>
-        </>
-      );
-    });
+    return (
+      <>
+        <ListGroup>
+          <ListGroup.Item>{this.props.date}</ListGroup.Item>
+          <ListGroup.Item>{this.props.description}</ListGroup.Item>
+        </ListGroup>
+      </>
+    );
   }
 }
 
