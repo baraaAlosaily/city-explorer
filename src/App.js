@@ -34,7 +34,7 @@ export class App extends Component {
       process.env.REACT_APP_URL || 'https://city-explorer-baraa2.herokuapp.com';
     try {
       let axiosResponse = await axios.get(url);
-      const myAPiRes = await axios.get(`${wetherUrl}weather`);
+      const myAPiRes = await axios.get(`${process.env.REACT_APP_URL}/weather`);
       console.log('myAPiRes', myAPiRes.data);
       let data = axiosResponse.data[0];
       if (data) {
