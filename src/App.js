@@ -30,7 +30,8 @@ export class App extends Component {
   getCitydata = async (e) => {
     e.preventDefault();
     let url = `https://us1.locationiq.com/v1/search.php?key=pk.81a1dda2f438258981d046ccdc477a53&q=${this.state.cityName}&format=json`;
-    const wetherUrl = process.env.REACT_APP_URL || 'http://localhost:8080';
+    const wetherUrl =
+      process.env.REACT_APP_URL || 'https://city-explorer-baraa2.herokuapp.com';
     try {
       let axiosResponse = await axios.get(url);
       const myAPiRes = await axios.get(`${wetherUrl}/weather`);
