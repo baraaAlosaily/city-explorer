@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import "./style.css";
+import React, { Component } from 'react';
+import './style.css';
 export class Footer extends Component {
   render() {
     return (
       <div>
-        <p>Craeted By Bara'a Al-Osaily</p>
+        <p>Craeted wdrqrewtrryeyetyeryeyer By::: Bara'a Al-Osaily</p>
       </div>
     );
   }

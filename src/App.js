@@ -53,7 +53,7 @@ export class App extends Component {
       });
     await axios
       .get(
-        `http://localhost:8080/weather?lat=${this.state.cityData.lat}&lon=${this.state.cityData.lon}`
+        `${process.env.REACT_APP_URL}/weather?lat=${this.state.cityData.lat}&lon=${this.state.cityData.lon}`
       )
       .then((response) => {
         this.setState({
@@ -68,7 +68,7 @@ export class App extends Component {
         });
       });
     await axios
-      .get(`http://localhost:8080/movies?query=${this.state.cityName}`)
+      .get(`${process.env.REACT_APP_URL}/movies?query=${this.state.cityName}`)
       .then((response) => {
         this.setState({
           movies: response.data,
