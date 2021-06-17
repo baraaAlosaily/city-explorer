@@ -25,7 +25,7 @@
 
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-#
+# lab 06
 
 Name of feature: LocationIQ/ Thunder Client/API/React
 
@@ -36,6 +36,32 @@ Start time: 2 pm
 Finish time: 2 am
 
 Actual time needed to complete: 12
+
+# lab07
+
+Name of feature: Server/Express/Node js
+
+Estimate of time needed to complete: 6 Hours
+
+Start time: 2 pm
+
+Finish time: 2 pm
+
+Actual time needed to complete: 12 hours
+
+# lab08
+
+Name of feature: Server/Express/Node js
+
+Estimate of time needed to complete: 6 Hours
+
+Start time: 2 pm
+
+Finish time: 2 pm
+
+Actual time needed to complete: 12 hours
+
+# lab09
 
 Name of feature: Server/Express/Node js
 
