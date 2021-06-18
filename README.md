@@ -72,3 +72,15 @@ Start time: 2 pm
 Finish time: 2 pm
 
 Actual time needed to complete: 12 hours
+
+# lab10
+
+Name of feature: Cache of the data/timestamp/Date.time
+
+Estimate of time needed to complete: 6 Hours
+
+Start time: 2 pm
+
+Finish time: 2 pm
+
+Actual time needed to complete: 12 hours

@@ -16,10 +16,26 @@ export class Movies extends Component {
           }}
         >
           <Card style={{ width: '100%', border: 'solid 1px black' }}>
-            <Card.Img variant="top" src={this.props.image_url} />
+            <Card.Img
+              style={{ height: '300px' }}
+              variant="top"
+              src={this.props.image_url}
+            />
             <Card.Body>
-              <Card.Title>{this.props.title}</Card.Title>
-              <Card.Text>{this.props.overview}</Card.Text>
+              <Card.Title style={{ height: '50px' }}>
+                {this.props.title}
+              </Card.Title>
+              <Card.Text
+                style={{
+                  backgroundColor: 'white',
+                  color: 'black',
+                  width: '200px',
+                  height: '200px',
+                  overflow: 'scroll',
+                }}
+              >
+                {this.props.overview}
+              </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
               <ListGroupItem>
